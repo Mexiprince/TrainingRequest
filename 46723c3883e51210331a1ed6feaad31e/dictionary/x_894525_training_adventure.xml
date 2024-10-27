@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0bb5f8f483291210331a1ed6feaad395" label="Adventure" max_length="40" name="x_894525_training_adventure" text_index="true" type="collection">
+        <element active="false" attributes="edge_encryption_enabled=true" label="New Date" max_length="40" name="u_glide_date_1" type="glide_date"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Trainee phone number" max_length="40" name="trainee_phone_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="analyst" label="Course type" mandatory="true" max_length="40" name="course_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Administrator" value="administrator"/>
+                <element inactive_on_update="false" label="Analyst" value="analyst"/>
+                <element inactive_on_update="false" label="Developer" value="developer"/>
+                <element inactive_on_update="false" label="Project Management" value="project_management"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Payment" mandatory="true" max_length="40" name="payment" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Self pay" value="self_pay"/>
+                <element inactive_on_update="false" label="Organization" value="organization"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Trainee Organization" max_length="32" name="trainee_organization" reference="core_company" type="reference"/>
+        <element label="Reimbursement" max_length="40" name="reimbursement" type="boolean"/>
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Training Date" mandatory="true" max_length="40" name="u_glide_date_2" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="u_status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Withdraw" sequence="2" value="withdraw"/>
+                <element inactive_on_update="false" label="In complete" sequence="3" value="in complete"/>
+                <element inactive_on_update="false" label="Complete" sequence="4" value="complete"/>
+                <element inactive_on_update="false" label="Registered" sequence="1" value="registered"/>
+                <element inactive_on_update="false" label="New" sequence="0" value="new"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Cost center" max_length="32" name="cost_center" reference="cmn_cost_center" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" display="true" hint="FirstName and LastName" label="Trainee Name" mandatory="true" max_length="40" name="trainee_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" hint="Email" label="Trainee email" mandatory="true" max_length="40" name="trainee_email" type="string"/>
+        <element attributes="encode_utf8=false" label="Trainee department" max_length="32" name="trainee_department" reference="cmn_department" type="reference"/>
+        <index name="index">
+            <element name="cost_center"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+        <index name="index3">
+            <element name="trainee_department"/>
+        </index>
+        <index name="index4">
+            <element name="trainee_organization"/>
+        </index>
+    </element>
+</database>

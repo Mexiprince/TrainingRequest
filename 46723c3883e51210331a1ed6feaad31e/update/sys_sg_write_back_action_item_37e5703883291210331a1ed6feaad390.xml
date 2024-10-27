@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="INSERT_OR_UPDATE">
+        <description/>
+        <execution_script/>
+        <name>Edit (Adventure)</name>
+        <parameter_screen/>
+        <query_condition table="x_894525_training_adventure">sys_idSTARTSWITH{{Adventure sys_id}}^EQ<item endquery="false" field="sys_id" goto="false" newquery="false" operator="STARTSWITH" or="false" value="{{Adventure sys_id}}"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </query_condition>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-27 02:04:06</sys_created_on>
+        <sys_id>37e5703883291210331a1ed6feaad390</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Edit (Adventure)</sys_name>
+        <sys_package display_value="Training Request" source="x_894525_training">46723c3883e51210331a1ed6feaad31e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training Request">46723c3883e51210331a1ed6feaad31e</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_37e5703883291210331a1ed6feaad390</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-27 02:04:06</sys_updated_on>
+        <table>x_894525_training_adventure</table>
+        <template>active={{Adventure active}}^cost_center={{Adventure cost_center}}^course_type={{Adventure course_type}}^number={{Adventure number}}^payment={{Adventure payment}}^reimbursement={{Adventure reimbursement}}^trainee_department={{Adventure trainee_department}}^trainee_email={{Adventure trainee_email}}^trainee_name={{Adventure trainee_name}}^trainee_organization={{Adventure trainee_organization}}^trainee_phone_number={{Adventure trainee_phone_number}}^EQ</template>
+        <type>update</type>
+        <use_current_record_as_condition>true</use_current_record_as_condition>
+        <use_fields_for_ref_lookup>false</use_fields_for_ref_lookup>
+    </sys_sg_write_back_action_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=37e5703883291210331a1ed6feaad390"/>
+</record_update>

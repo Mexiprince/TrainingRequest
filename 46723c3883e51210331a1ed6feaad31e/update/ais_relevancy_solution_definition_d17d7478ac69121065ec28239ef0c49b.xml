@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="ais_relevancy_solution_definition">
+    <ais_relevancy_solution_definition action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <capability display_value="Search Relevancy">458c3b2ab72300100e173307fe11a923</capability>
+        <current_solution_version/>
+        <dataset_language>en</dataset_language>
+        <fields>signal_json</fields>
+        <filter table="ais_relevancy_training_staging">sys_created_onONLast 30 days@javascript:gs.beginningOfLast30Days()@javascript:gs.endOfLast30Days()^search_profile=957d747801691210b25391a8e0487f9b^EQ<item endquery="false" field="sys_created_on" goto="false" newquery="false" operator="ON" or="false" value="Last 30 days@javascript:gs.beginningOfLast30Days()@javascript:gs.endOfLast30Days()"/>
+            <item display_table="ais_search_profile" display_value="training-request Search Profile" endquery="false" field="search_profile" goto="false" newquery="false" operator="=" or="false" value="957d747801691210b25391a8e0487f9b"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <pretrained>false</pretrained>
+        <profile display_value="training-request Search Profile">957d747801691210b25391a8e0487f9b</profile>
+        <request_source>api</request_source>
+        <solution_label>ais_relevancy_4f6a0a5f91bb8110f8777453a087678e</solution_label>
+        <solution_name>ml_x_snc_sn_workspace_start_global_ais_relevancy_4f6a0a5f91bb8110f8777453a087678e</solution_name>
+        <solution_parameters/>
+        <solution_properties>{"trainingMode":"generateFeatureVectorsandTrain","algorithm":"liblinear"}</solution_properties>
+        <stopwords>a6282a25533333008c5bddeeff7b12c3</stopwords>
+        <sys_class_name>ais_relevancy_solution_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-27 02:36:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d17d7478ac69121065ec28239ef0c49b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ais_relevancy_4f6a0a5f91bb8110f8777453a087678e</sys_name>
+        <sys_package display_value="Training Request" source="x_894525_training">46723c3883e51210331a1ed6feaad31e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training Request">46723c3883e51210331a1ed6feaad31e</sys_scope>
+        <sys_update_name>ais_relevancy_solution_definition_d17d7478ac69121065ec28239ef0c49b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-27 02:36:59</sys_updated_on>
+        <table>ais_relevancy_training_staging</table>
+        <training_frequency>every_30_days</training_frequency>
+        <triggered_source/>
+        <word_vector_corpus/>
+    </ais_relevancy_solution_definition>
+</record_update>
