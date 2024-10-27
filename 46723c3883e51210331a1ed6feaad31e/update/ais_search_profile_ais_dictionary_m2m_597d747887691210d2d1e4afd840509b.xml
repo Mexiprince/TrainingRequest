@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_dictionary_m2m">
+    <ais_search_profile_ais_dictionary_m2m action="INSERT_OR_UPDATE">
+        <dictionary display_value="default_synonym_dictionary">b29df374c7531010d1cfd9795cc260cd</dictionary>
+        <dictionary_reference_qualifier/>
+        <marked_for_deletion>false</marked_for_deletion>
+        <profile display_value="training-request Search Profile">957d747801691210b25391a8e0487f9b</profile>
+        <sys_class_name>ais_search_profile_ais_dictionary_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-27 02:37:01</sys_created_on>
+        <sys_id>597d747887691210d2d1e4afd840509b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>default_synonym_dictionary.training-request Search Profile</sys_name>
+        <sys_package display_value="Training Request" source="x_894525_training">46723c3883e51210331a1ed6feaad31e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training Request">46723c3883e51210331a1ed6feaad31e</sys_scope>
+        <sys_update_name>ais_search_profile_ais_dictionary_m2m_597d747887691210d2d1e4afd840509b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-27 02:37:01</sys_updated_on>
+    </ais_search_profile_ais_dictionary_m2m>
+</record_update>

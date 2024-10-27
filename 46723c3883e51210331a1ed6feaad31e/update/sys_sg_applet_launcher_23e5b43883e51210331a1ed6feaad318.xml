@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher">
+    <sys_sg_applet_launcher action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <available_offline>true</available_offline>
+        <header_button/>
+        <header_titles/>
+        <hide_empty_sections>true</hide_empty_sections>
+        <name>Training Request</name>
+        <required_roles>x_894525_training.admin,x_894525_training.user,x_894525_training.approver</required_roles>
+        <search_config/>
+        <sys_class_name>sys_sg_applet_launcher</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-27 02:04:05</sys_created_on>
+        <sys_id>23e5b43883e51210331a1ed6feaad318</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Training Request</sys_name>
+        <sys_package display_value="Training Request" source="x_894525_training">46723c3883e51210331a1ed6feaad31e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training Request">46723c3883e51210331a1ed6feaad31e</sys_scope>
+        <sys_update_name>sys_sg_applet_launcher_23e5b43883e51210331a1ed6feaad318</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-27 02:04:05</sys_updated_on>
+        <title>Training Request</title>
+    </sys_sg_applet_launcher>
+</record_update>

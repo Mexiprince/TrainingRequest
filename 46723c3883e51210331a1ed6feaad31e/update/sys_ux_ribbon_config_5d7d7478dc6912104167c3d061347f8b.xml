@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_ribbon_config">
+    <sys_ux_ribbon_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Training Request Ribbon Config</description>
+        <name>Training Request Ribbon Config</name>
+        <sys_class_name>sys_ux_ribbon_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-27 02:37:01</sys_created_on>
+        <sys_id>5d7d7478dc6912104167c3d061347f8b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Training Request Ribbon Config</sys_name>
+        <sys_package display_value="Training Request" source="x_894525_training">46723c3883e51210331a1ed6feaad31e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training Request">46723c3883e51210331a1ed6feaad31e</sys_scope>
+        <sys_update_name>sys_ux_ribbon_config_5d7d7478dc6912104167c3d061347f8b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-27 02:37:01</sys_updated_on>
+    </sys_ux_ribbon_config>
+</record_update>

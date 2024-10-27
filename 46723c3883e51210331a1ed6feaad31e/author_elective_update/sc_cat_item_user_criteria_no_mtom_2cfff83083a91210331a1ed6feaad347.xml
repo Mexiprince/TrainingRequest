@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom">
+    <sc_cat_item_user_criteria_no_mtom action="DELETE">
+        <sc_cat_item display_value="Training Request">e1bdbc7883691210331a1ed6feaad38a</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-27 02:47:50</sys_created_on>
+        <sys_id>2cfff83083a91210331a1ed6feaad347</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Training Request.Guest User</sys_name>
+        <sys_package display_value="Training Request" source="x_894525_training">46723c3883e51210331a1ed6feaad31e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training Request">46723c3883e51210331a1ed6feaad31e</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_2cfff83083a91210331a1ed6feaad347</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-27 02:47:50</sys_updated_on>
+        <user_criteria display_value="Guest User">76f09af6cb1200108ad442fcf7076dbf</user_criteria>
+    </sc_cat_item_user_criteria_no_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Training Request">46723c3883e51210331a1ed6feaad31e</application>
+        <file_path/>
+        <instance_id>f977b52c1bd18adcc82acb7b234bcb0d</instance_id>
+        <instance_name>dev251437</instance_name>
+        <name>sc_cat_item_user_criteria_no_mtom_2cfff83083a91210331a1ed6feaad347</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom"><sc_cat_item_user_criteria_no_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="Training Request">e1bdbc7883691210331a1ed6feaad38a</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-27 02:47:50</sys_created_on><sys_id>2cfff83083a91210331a1ed6feaad347</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Training Request.Guest User</sys_name><sys_package display_value="Training Request" source="x_894525_training">46723c3883e51210331a1ed6feaad31e</sys_package><sys_policy/><sys_scope display_value="Training Request">46723c3883e51210331a1ed6feaad31e</sys_scope><sys_update_name>sc_cat_item_user_criteria_no_mtom_2cfff83083a91210331a1ed6feaad347</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-27 02:47:50</sys_updated_on><user_criteria display_value="Guest User">76f09af6cb1200108ad442fcf7076dbf</user_criteria></sc_cat_item_user_criteria_no_mtom></record_update>]]></payload>
+        <payload_hash>-846169046</payload_hash>
+        <record_name>Training Request.Guest User</record_name>
+        <reverted_from/>
+        <source>c6723c3883e51210331a1ed6feaad322</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-27 02:47:51</sys_created_on>
+        <sys_id>ecfff83083a91210331a1ed6feaad34b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192cbdf70150000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-27 02:47:51</sys_updated_on>
+        <type>Catalog Item Not Available for</type>
+        <update_guid>20fff83027a91210a2201f725c53f84b</update_guid>
+        <update_guid_history>20fff83027a91210a2201f725c53f84b:-846169046</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Training Request.Guest User">26ff3c3083a91210331a1ed6feaad37a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-27 02:47:58</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_no_mtom">sc_cat_item_user_criteria_no_mtom</sys_db_object>
+        <sys_id>75524bb8644e4d988159111589349fd9</sys_id>
+        <sys_metadata>2cfff83083a91210331a1ed6feaad347</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Training Request.Guest User</sys_name>
+        <sys_package display_value="Training Request" source="x_894525_training">46723c3883e51210331a1ed6feaad31e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Training Request">46723c3883e51210331a1ed6feaad31e</sys_scope>
+        <sys_scope_delete display_value="">696824d994c04b9e9f8e623eb104bbc4</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_2cfff83083a91210331a1ed6feaad347</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_no_mtom_2cfff83083a91210331a1ed6feaad347">ecfff83083a91210331a1ed6feaad34b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-27 02:47:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>400</order>
+        <published_ref/>
+        <question display_value="Course type">5aae34f883691210331a1ed6feaad307</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-27 02:44:56</sys_created_on>
+        <sys_id>f54f303c83691210331a1ed6feaad304</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Developer</sys_name>
+        <sys_package display_value="Training Request" source="x_894525_training">46723c3883e51210331a1ed6feaad31e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training Request">46723c3883e51210331a1ed6feaad31e</sys_scope>
+        <sys_update_name>question_choice_f54f303c83691210331a1ed6feaad304</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-27 02:44:56</sys_updated_on>
+        <text>Developer</text>
+        <value>developer</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=f54f303c83691210331a1ed6feaad304"/>
+</record_update>
