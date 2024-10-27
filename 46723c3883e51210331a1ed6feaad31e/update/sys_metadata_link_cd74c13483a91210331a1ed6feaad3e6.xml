@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>849cbcb483691210331a1ed6feaad32b</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_894525_training_adventure">
+    <x_894525_training_adventure action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <cost_center display_value="Engineering">d9d07bddc0a80a647cf932056ed24652</cost_center>
+        <course_type>administrator</course_type>
+        <number>ADV0001013</number>
+        <payment>self_pay</payment>
+        <reimbursement>false</reimbursement>
+        <sys_class_name>x_894525_training_adventure</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-27 02:34:20</sys_created_on>
+        <sys_id>849cbcb483691210331a1ed6feaad32b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-27 02:34:20</sys_updated_on>
+        <trainee_department display_value="HR">93b25282c0a8000b0b55c8ab34e2f1e6</trainee_department>
+        <trainee_email>nnaijakitchen@gmail.com</trainee_email>
+        <trainee_name>Anthony</trainee_name>
+        <trainee_organization display_value="ACME Africa">86c1f3193790200044e0bfc8bcbe5d95</trainee_organization>
+        <trainee_phone_number>1234567890</trainee_phone_number>
+        <u_glide_date_1/>
+        <u_glide_date_2>2024-11-06</u_glide_date_2>
+        <u_status>registered</u_status>
+    </x_894525_training_adventure>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-27 03:07:32</sys_created_on>
+        <sys_id>cd74c13483a91210331a1ed6feaad3e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Anthony</sys_name>
+        <sys_package display_value="Training Request" source="x_894525_training">46723c3883e51210331a1ed6feaad31e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training Request">46723c3883e51210331a1ed6feaad31e</sys_scope>
+        <sys_update_name>sys_metadata_link_cd74c13483a91210331a1ed6feaad3e6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-27 03:07:32</sys_updated_on>
+        <tablename>x_894525_training_adventure</tablename>
+    </sys_metadata_link>
+</record_update>
